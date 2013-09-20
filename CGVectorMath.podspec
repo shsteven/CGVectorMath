@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CGVectorMath"
-  s.version      = "0.0.1"
+  s.version      = "0.1"
   s.summary      = "CGVector math additions. Prefixed. For SpriteKit lovers."
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.9'
 
-  s.source       = { :git => "https://github.com/shsteven/CGVectorMath.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/shsteven/CGVectorMath.git", :tag => "0.1" }
 
   s.source_files  = 'CGVectorMath.h'
 
